@@ -47,6 +47,12 @@ def dtw(D):
 
         return(A)
     
+    
+##   
+##  The code for soft-DTW is adapted from https://github.com/Sleepwalking/pytorch-softdtw
+##    
+    
+    
 @jit(nopython = True)
 def compute_softdtw(D, gamma):
         ######### Given a distance matrix D_xy, and entropic coefficient \gamma, computes soft-DTW forward
