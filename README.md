@@ -2,7 +2,7 @@
 This repository consists of an implementation of the Gromov-DTW metric for time series living on incomparable spaces
 
 ## Dependencies
-Please download dependencies by running python -r requirements.txt
+Please download dependencies by running pip install -r requirements.txt
 
 ## Demonstration
 A demonstration of Gromov-DTW in a toy imitation learning task is provided in the notebook Imitatiion_learning_2d.ipynb
