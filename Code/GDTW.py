@@ -147,7 +147,7 @@ class gromov_dtw(nn.Module):
 
             
             if cpt>0:
-                err = self.losses_gdtw[-2] - self.losses_gdtw[-1] 
+                err = torch.abs(self.losses_gdtw[-2] - self.losses_gdtw[-1])
                 
             if self.verbose:
                 print('iter:', cpt, 'GDTW:', self.losses_gdtw[-1].item())
